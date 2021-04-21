@@ -1,0 +1,63 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Keyboard",
+            "id": "cd75e691-8039-45d4-82a9-db19d2601865",
+            "actions": [
+                {
+                    "name": "Higher",
+                    "type": "Button",
+                    "id": "4207df3d-92e8-45a7-987f-29fbf2ee4209",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)"
+                },
+                {
+                    "name": "Lower",
+                    "type": "Button",
+                    "id": "85fa951e-07af-40e0-aa46-706013711220",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4c8cc082-cf91-4757-9a65-12d46619b065",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Higher",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "100623e7-b186-401f-9ddc-40717c601e10",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Higher",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f074ca81-ca1c-4032-a991-1ef2ab0195d8",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lower",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

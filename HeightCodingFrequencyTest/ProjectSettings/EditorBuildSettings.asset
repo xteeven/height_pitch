@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Elevator/Elevator.unity
+    guid: 4aac288d34a8af6479ad58250ff3088a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fff94a7354d1a6643a47d63b72e4e2fc, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: db53fb02940193d43a5998e90fa3c300, type: 2}
